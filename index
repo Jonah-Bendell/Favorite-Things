@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite thing about school</title>
+
+    <link rel="stylesheet" href="header/pages.css">
+    <link rel="overlay" href="header/overlay.css">
+
+   <style>
+        #blue-back{
+            background-color: rgb(171, 178, 228);
+        }
+        #green-back{
+            background-color: rgb(173, 228, 171);
+        }
+        #purple-back{
+            background-color: rgb(212, 171, 228);
+        }
+        
+       
+
+        .container {
+        position: relative;
+        width: 50%;
+        }
+
+        
+        .image {
+        width: 100%;
+        height: auto;
+        }
+
+        
+        .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        opacity: 0.8;
+        overflow: hidden;
+        width: 113.6%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+        }
+
+        
+        .container:hover .overlay {
+        transform: scale(1);
+        }
+
+        
+        .text {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align: center; color: antiquewhite;">Some of my favorite things about school</h1>
+
+   <ul class="nav">
+
+        <li style="font-size: larger;" id="blue-back"><a href="index">Home</a></li>
+        <li style="font-size: larger;" id="green-back"><a href="classes.html">Classes</a></li>
+        <li style="font-size: larger;" id="purple-back"><a href="sports.html">Sports</a></li>
+
+    
+
+   </ul>
+
+   <div class="container">
+        <img src="Images/MS.jpg" style="margin: auto;">  
+        <div class="overlay">
+            <div class="text"><a href="https://www.eastsideprep.org/">Visit My School</a></div>
+        </div>
+   </div>
+     
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+
+ 
+
+ 
+</body>
+</html>
