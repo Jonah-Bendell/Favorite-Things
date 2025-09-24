@@ -25,3 +25,23 @@
         background-color: #04AA6D;  /* a green highlight */
         font-weight: bold;          /* make it stand out */
         }
+
+h1{
+font-family: "ff-seria", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+body {
+
+font-family: "ff-seria", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+em {
+
+font-family: "ff-seria", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
